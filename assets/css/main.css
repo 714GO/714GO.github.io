@@ -3510,3 +3510,39 @@ input, select, textarea {
 			}
 
 	}
+
+	.resume header::before {
+		background: url(../images/bg-home-office-city.jpg) center;
+		background-size: cover;
+		content: "";
+		display: block;
+		height: 375px;
+	}
+	.resume-section {
+		margin-bottom: 50px;
+	}
+	.resume-section h2 {
+		border-bottom: 2px dashed #d3d4d6;
+	}
+	.download-link {
+		position: fixed;
+		top: 5px;
+		left: 5px;
+		font-size: 1.5rem;
+	}
+	@media screen and (max-width: 1200px){
+		.download-link {
+			position: absolute;
+		}
+	}
+	@media screen and (max-width: 500px){
+		.resume header::before {
+			height: 200px;
+		}
+		h1 {
+			font-size: 5rem;
+		}
+		h2 {
+			font-size: 2.6rem;
+		}
+	}
