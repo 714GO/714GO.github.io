@@ -911,7 +911,7 @@ footer {
   color: var(--mid-grey);
   margin-bottom: 20px;
 }
-.portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+.portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0px; margin-top: 0px; }
 .portfolio-thumb {
   aspect-ratio: 16/10;
   background: var(--light-grey);
